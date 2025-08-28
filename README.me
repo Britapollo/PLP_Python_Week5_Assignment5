@@ -1,0 +1,25 @@
+# Object-Oriented Programming (OOP) Assignment 🐍🏗️
+
+This project demonstrates fundamental **OOP principles in Python**, including classes, objects, constructors, inheritance, polymorphism, and encapsulation. The assignment is divided into two main activities: designing your own class and exploring polymorphism.
+
+---
+
+## **Assignment 1: Design Your Own Class – Smartphone Example** 📱
+
+**Description:**  
+- Create a `Smartphone` class with attributes like brand, model, and price.  
+- Include methods to display details and perform actions like making calls.  
+- Extend the class with an `AdvancedSmartphone` subclass, adding attributes like camera megapixels and battery capacity.  
+- Demonstrate **inheritance** and **polymorphism** by overriding methods in the subclass.
+
+**Example Usage:**
+```python
+phone1 = Smartphone("Nokia", "3310", 50)
+phone2 = AdvancedSmartphone("Apple", "iPhone 15", 1200, 48, 4000)
+
+phone1.show_details()
+phone1.make_call("0712345678")
+
+phone2.show_details()
+phone2.make_call("0798765432")
+phone2.take_photo()
